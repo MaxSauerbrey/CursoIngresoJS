@@ -6,9 +6,9 @@ function mostrar()
 {
 	alert("ok");
 
-	var dato;
+	var nombre;
 
-	dato= prompt ("Ingrese su nombre");
+	nombre= prompt ("Ingrese su nombre");
 
 	txtIdNombre.value = dato; 
 
