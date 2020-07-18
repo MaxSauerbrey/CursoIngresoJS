@@ -19,14 +19,51 @@ function Rectangulo ()
     largo = parseInt (largo);
     ancho = parseInt (ancho);
 
-    resultado = (largo + ancho) * 3;
-    alert("La cantidad de centimetros de alambre necesario es " + resultado);
+    resultado = (largo*2 + ancho*2) * 3;
+    alert("La cantidad de metros de alambre necesario es " + resultado);
+
+    
 }
 function Circulo () 
 {
-	
+    var radio;
+    var resultado;
+
+    radio = txtIdRadio.value;
+
+    //Parsear 
+    radio = parseInt(radio);
+
+    resultado = (2 * Math.PI * radio) *3 ;
+
+    alert("La cantidad de metros de alambre necesario es " + resultado);
+
+    
+    
 }
 function Materiales () 
 {
-	
+	//Declaracion de variables
+    var largoTerreno;
+    var anchoTerreno;
+    var medidaTerreno;
+    var bolsaCemento;
+    var bolsaCal;
+    
+
+    largoTerreno = txtIdLargo.value;
+    anchoTerreno = txtIdAncho.value;
+
+    //Parsear
+    largoTerreno = parseInt (largoTerreno);
+    anchoTerreno = parseInt (anchoTerreno);
+
+    medidaTerreno= largoTerreno * anchoTerreno;
+    bolsaCemento = medidaTerreno *2;
+    bolsaCal = medidaTerreno *3 ;
+    
+
+
+    alert("Se necesitaran " + bolsaCemento + " bolsas de cemento y " + bolsaCal + " bolsas de cal");
+
 }
