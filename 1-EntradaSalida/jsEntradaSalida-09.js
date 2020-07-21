@@ -33,3 +33,6 @@ function mostrarAumento() {
 // resultado = sueldo * 0,1;
 
 	// total= sueldo + resultado; 
+
+
+
