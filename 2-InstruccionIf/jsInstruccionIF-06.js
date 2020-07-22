@@ -2,45 +2,40 @@ function mostrar()
 {
 	// Al ingresar una edad debemos informar si la persona es mayor de edad (mas de 18 años)
 	// o adolescente (entre 13 y 17 años) o niño (menor a 13 años).
-	// //Max Sauerbrey. 
+	// Max Sauerbrey. 
 	//tomo la edad  
-	
-	var edad; 	
-	edad = txtIdEdad.value;
-	edad = parseInt (edad);
 
-	if ( edad> 17)
+	//Declaracion de variable.
+	var edad;
+
+	//Inicializacion.
+	edad= txtIdEdad.value;
+
+	//Parsear.
+	edad= parseInt(edad);
+
+	//
+	if (edad>17)
 	{
-		alert("La persona es mayor de edad");
+		alert ("Usted es una persona mayor.");
 	}
-		else if (edad>12 && edad<17)
+
+	else
+	{
+		if(edad>12)
 		{
-			alert ("La persona es un adolescente");
+			alert("Usted es una adolescente");
 		}
-			else
-			{ 	
-				alert ("La persona es un niño");
- 			}
 	
+		else
+		{
+			alert("Usted es un niño");
+		}	
 
-	// 		 if ( edad> 17)
-	// 		 {
-	// 			 alert("La persona es mayor de edad");
-	// 		 }
-	// 			 else
-				{		
-	//				 if (edad>12 )
-				{
-	// 			 
-	// 				 alert ("La persona es un adolescente");
-	// 			 }
-	// 				 else
-	// 				 { 	
-	// 					 alert ("La persona es un niño");
-	// 				  }
-			 
-	
-	
-	
+	}
 
-}//FIN DE LA FUNCIÓN
+
+	/*
+
+	*/
+}
