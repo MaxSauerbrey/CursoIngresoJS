@@ -21,3 +21,19 @@ function mostrar()
 	}
 
 }//FIN DE LA FUNCIÓN
+
+
+/*
+Clase Sabado repaso 
+
+var edadIngresada;
+edadIngresada =txtIdEdad.value;
+edadIngresada = parseInt (edadIngresada);
+
+
+
+
+
+
+
+*/
