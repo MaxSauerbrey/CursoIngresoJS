@@ -22,16 +22,19 @@ function CalcularPrecio () {
         {
             case 5:
                 {
-                    switch(brand== "ArgentinaLuz")
+                    switch(brand)
                     {
-                        precioFinal= precioFinal*0.6);
-                }
+                        case "ArgentinaLuz"
+                        precioFinal *= 0.6;
+                        break;
+                    }        
 
+                }    
         }
+
     }
+
 }
-
-
 
 
 

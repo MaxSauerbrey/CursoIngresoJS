@@ -4,19 +4,17 @@ function mostrar()
 	destinoIngresado =txtIdDestino.value;
 
 	switch (destinoIngresado)
-	{
+	{	
+		case "Cordoba":
 		case "Bariloche":
 			alert("Este destino se encuentra en el Sur");
 			break;
-		case "Cataratas":
-			alert ("Este destino se encuentra en el Este");
-			break;
+								
+		case "Cataratas":			
 		case "Mar del plata":
 			alert ("Este destino se encuentra en el Oeste ");
 			break;	
-		case "Cordoba":
-			alert ("Este destino se encuentra en el Norte");
-			break;
+
 
 	}
 
