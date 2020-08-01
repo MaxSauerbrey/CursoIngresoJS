@@ -11,10 +11,12 @@ function mostrar()
 	while (i>0) //condicion de continuidad de bucle
 	{
 		
-	 i--;
+	
 		
 	//alert (i);
 	document.write( contador);
+
+	i--;
 	}
 }
 //FIN DE LA FUNCIÓN
