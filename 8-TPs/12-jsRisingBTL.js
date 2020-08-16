@@ -86,9 +86,9 @@ function ComenzarIngreso ()
 	txtIdLegajo.value = numeroLegajo;
 
 	var nacionalidad;
-	nacionalidad = prompt ("Ingrese su nacionalidad. “a” para argentinos, “e” para extranjeros, “n” para nacionalizados.");
+	nacionalidad = prompt ("Ingrese su nacionalidad. “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.");
 
-	while (!(nacionalidad == "a" || nacionalidad == "e" || nacionalidad == "n"))
+	while (!(nacionalidad == "A" || nacionalidad == "E" || nacionalidad == "N"))
 	{
 		var nacionalidad;
 		nacionalidad = prompt ("Error!! Reingrese su nacionalidad. “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.");
@@ -96,10 +96,10 @@ function ComenzarIngreso ()
 	
 	switch(nacionalidad)
 	{
-		case "a":
+		case "A":
 			nacionalidad = "Argentino";
 			break;
-		case "e":
+		case "E":
 			nacionalidad = "Extranjero";
 			break;
 		default:
